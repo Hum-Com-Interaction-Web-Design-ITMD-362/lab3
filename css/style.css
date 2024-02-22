@@ -1,8 +1,8 @@
 body {
     line-height:2;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
 }
 
 h1 {
@@ -59,9 +59,12 @@ input[type="submit"]{
 
 }
 
+#input-age-verification label {
+    margin-top: -43px;
+    margin-left: 28px;
+}
 input[type="checkbox"] {
     margin-right:5px;
-    margin-top: -20px;
 }
 
 @media only screen and (max-wdith:600px) {
@@ -69,6 +72,7 @@ input[type="checkbox"] {
 form {
     max-width: 100%;
 }
+
 input[type="email"], input[type="submit"] {
     width: 100%;
 }
