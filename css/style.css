@@ -2,7 +2,6 @@ body {
     line-height:2;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 5%;
 }
 
 h1 {
@@ -37,7 +36,7 @@ label {
 }
 
 input[type="email"]{
-    width:93%;
+    width:95%;
     padding:12px;
     margin-bottom:20px;
     background-color: #eee;
@@ -46,13 +45,13 @@ input[type="email"]{
 
 }
 
-input[type="submit"]{
+input[type="submit"] {
     font-family: 'Playfair Display', 'Anta', 'Roboto', serif;
     background-color:darkblue;
     color:#fff;
     padding: 15px;
     border:none;
-    border: radius 4px;
+    border-radius: 4px;
     text-align:center;
     width: 100%;
     height: 70%;
@@ -67,13 +66,13 @@ input[type="checkbox"] {
     margin-right:5px;
 }
 
-@media only screen and (max-wdith:600px) {
+@media only screen and (max-width:600px) {
     
 form {
     max-width: 100%;
 }
 
-input[type="email"], input[type="submit"] {
-    width: 100%;
+input[type="submit"] {
+    background-color: lawngreen;
 }
 }
